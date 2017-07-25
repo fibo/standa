@@ -1,0 +1,26 @@
+{
+  "name": "standa",
+  "version": "0.0.0",
+  "description": "JavaScript Standa•Rd Style minus R(eact) d(evelopment) stuff",
+  "main": "index.js",
+  "bin": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fibo/standa.git"
+  },
+  "author": {
+    "name": "Gianluca Casati",
+    "url": "http://g14n.info"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fibo/standa/issues"
+  },
+  "homepage": "http://g14n.info/standa",
+  "dependencies": {
+    "standard-engine": "^7.1.0"
+  }
+}
