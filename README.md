@@ -12,7 +12,7 @@ with a subset of rules: everything related to JSX and React is removed.
 With [npm](https://npmjs.org/) do
 
 ```bash
-npm i standa
+npm i standa -D
 ```
 
 ## Credits
