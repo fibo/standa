@@ -17,13 +17,33 @@ npm i standa -D
 
 ## Usage
 
-It works the same as [Standard JS], for example you can declare globals in
-package.json, adding something like
+It works the same as [Standard JS]!
+
+For example you can declare globals in *package.json*, adding something like
 
 ```json
   "standa": {
     "globals": [
       "localStorage"
+    ]
+  }
+```
+
+Note that the attribute name is **standa** instead of *standard*.
+
+Another use case, if you want to lint code with flow annotations, follow
+[instructions from official StandardJS documentation](https://standardjs.com/#can-i-use-a-javascript-language-variant-like-flow-or-typescript)
+then in your *package.json*
+
+```bash
+npm install babel-eslint
+```
+
+```json
+  "standa": {
+    "parser": "babel-eslint",
+    "plugins": [
+      "flowtype"
     ]
   }
 ```
