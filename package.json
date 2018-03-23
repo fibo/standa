@@ -1,6 +1,6 @@
 {
   "name": "standa",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "JavaScript Standa•Rd Style minus R{eact} d{evelopment} stuff",
   "main": "index.js",
   "bin": "cli.js",
