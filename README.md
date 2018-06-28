@@ -4,7 +4,7 @@
 
 ## Features
 
-It has a same features as [Standard JS](https://standardjs.com/) linter but
+It has same features as [Standard JS](https://standardjs.com/) linter but
 with a subset of rules: everything related to JSX and React is removed.
 
 ## Installation
