@@ -1,12 +1,12 @@
 {
   "name": "standa",
-  "version": "2.1.0",
+  "version": "12.0.0",
   "description": "JavaScript Standa•Rd Style minus R{eact} d{evelopment} stuff",
   "main": "index.js",
   "bin": "cli.js",
   "scripts": {
     "postversion": "git push origin v${npm_package_version}; npm publish; git push origin master",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
@@ -50,12 +50,12 @@
     "verify"
   ],
   "dependencies": {
-    "eslint": "^4.19.1",
-    "eslint-config-standard": "^11.0.0",
-    "eslint-plugin-import": "^2.12.0",
-    "eslint-plugin-node": "^6.0.1",
-    "eslint-plugin-promise": "^3.8.0",
-    "eslint-plugin-standard": "^3.1.0",
-    "standard-engine": "^9.0.0"
+    "eslint": "^5.5.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "standard-engine": "^10.0.0"
   }
 }
