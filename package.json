@@ -5,7 +5,7 @@
   "main": "index.js",
   "bin": "cli.js",
   "scripts": {
-    "postversion": "git push origin v${npm_package_version}; npm publish; git push origin master",
+    "postversion": "git push origin v${npm_package_version}; npm publish; git push origin main",
     "test": "node test.js"
   },
   "repository": {
